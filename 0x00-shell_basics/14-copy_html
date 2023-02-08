@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -type f -newer .. | xargs rsync -tuv --no-relative {} ..
+cp -rua *.html ../
